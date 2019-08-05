@@ -2,7 +2,7 @@
 
 ---
 
-This demonstrates the steps required to build and simulate Mirage unikernels on baremetal RiscV
+This repository demonstrates the steps required to build and simulate Mirage unikernels on baremetal RiscV
 
 ## What
 
