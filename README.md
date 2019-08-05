@@ -1,18 +1,20 @@
-# Mirage-baremetal-riscv
+# Mirage-Baremetal-RiscV
 
 ---
 
-This is repository which can produce riscv-bootable elf files from a given ocaml object file.
-
-## Requirements
-
-- installed instance of [shakti-tee-tools](https://gitlab.com/shaktiproject/tools/shakti-tee/shakti-tee-tools).
+This demonstrates the steps required to build and simulate Mirage unikernels on baremetal RiscV
 
 ## What
 
 ### hello_world
 
 Prints "Hello!" every second to demonstrate the most basic Mirage unikernel.
+
+
+## Requirements
+
+- installed instance of [shakti-tee-tools](https://gitlab.com/shaktiproject/tools/shakti-tee/shakti-tee-tools).
+
 
 ## How
 
@@ -44,3 +46,6 @@ make kernel
 
 `spike kernel`
 
+
+#### Note
+The packages ported out in `opam-cross-shakti` custom repository support building simple unikernel applications like `hello-world` . Further packages to support other applications are being ported out.
