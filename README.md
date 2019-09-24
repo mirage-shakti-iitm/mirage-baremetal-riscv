@@ -27,9 +27,9 @@ This remains experimental but I've done a lot to make the process as simple as p
 ### Build a kernel
 
 * Switch to ocaml4.07.0 compiler : 
-`opam switch 4.07.0`
+`opam switch create 4.07.0`
 * Add my custom opam repository for esp32 packages: 
-`opam repo add opam-cross-shakti git@github.com:mirage-shakti-iitm/opam-cross-shakti.git`
+`opam repo add opam-cross-shakti https://github.com/mirage-shakti-iitm/opam-cross-shakti.git`
 * Install mirage configuration tool. 
 `opam install mirage`
 * Go in the unikernel directory that you want to run and type the following commands:
